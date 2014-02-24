@@ -5,6 +5,7 @@ Using this plugin lets the user manually adjust Y-Axis range by dragging the lab
 Double click to go back to default range.
 
 To disable, set scalable = false. Default is true.
+
 yAxis: {
     scalable: false
 }
