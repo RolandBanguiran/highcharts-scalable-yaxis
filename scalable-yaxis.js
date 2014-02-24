@@ -105,6 +105,15 @@
 					body.style.cursor = 'default';
 					isDragging = false;
 				});
+				
+				// double-click to go back to default range
+				addEvent(labelGroupBBox.element, 'dblclick', function () {
+					var extremes = yAxis.getExtremes(),
+						dataMin = extremes.dataMin,
+						dataMax = extremes.dataMax;
+						
+					yAxis.setExtremes(dataMin, dataMax, true, false);
+				});
 			}
 		});
     });
