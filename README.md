@@ -9,3 +9,5 @@ To disable, set scalable = false. Default is true.
 yAxis: {
     scalable: false
 }
+
+Can also be used with Highstock.
