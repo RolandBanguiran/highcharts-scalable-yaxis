@@ -1,9 +1,10 @@
 {
     "name": "Scalable Y-Axis",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "title": "Highcharts Scalable Y-Axis",
     "demo": [
-        "http://jsfiddle.net/RolandBanguiran/zJA93/"
+        "http://jsfiddle.net/RolandBanguiran/zJA93/",
+        "http://jsfiddle.net/RolandBanguiran/8L2Nb/"
     ],
     "author": {
         "name": "Roland Banguiran",
