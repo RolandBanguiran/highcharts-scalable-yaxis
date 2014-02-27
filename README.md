@@ -6,8 +6,10 @@ Double click to go back to default range.
 
 To disable, set scalable = false. Default is true.
 
+<pre>
 yAxis: {
     scalable: false
 }
+</pre>
 
 Can also be used with Highstock.
