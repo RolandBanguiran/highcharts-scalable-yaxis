@@ -30,7 +30,7 @@
         each(yAxis, function (yAxis) {
             var labelGroup = yAxis.labelGroup,
                 options = yAxis.options,
-                scalable = options.scalable === undefined ? true : false,
+                scalable = options.scalable === undefined ? true : options.scalable,
                 labels = options.labels,
                 pointer = chart.pointer,
                 labelGroupBBox,
