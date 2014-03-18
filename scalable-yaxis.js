@@ -37,7 +37,6 @@
                 bBoxY,
                 bBoxWidth,
                 bBoxHeight,
-                startDragging,
                 isDragging = false,
                 downYValue;
 
@@ -62,14 +61,12 @@
 
                 labels.style.cursor = 'ns-resize';
 
-                startDragging = function (e) {
+                addEvent(labelGroupBBox.element, 'mousedown', function (e) {
                     var downYPixels = pointer.normalize(e).chartY;
 
                     downYValue = yAxis.toValue(downYPixels);
                     isDragging = true;
-                };
-
-                addEvent(labelGroupBBox.element, 'mousedown', startDragging);
+                });
 
                 addEvent(chart.container, 'mousemove', function (e) {
                     if (isDragging) {
