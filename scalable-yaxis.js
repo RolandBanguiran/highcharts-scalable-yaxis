@@ -92,8 +92,10 @@
                         if (downYValue > (dataMin + dataMax) / 2) {
                             newMin = min;
                             newMax = max - (dragYValue - downYValue);
+                            newMax = newMax > dataMax ? newMax : dataMax; //limit
                         } else {
                             newMin = min - (dragYValue - downYValue);
+                            newMin = newMin < dataMin ? newMin : dataMin; //limit
                             newMax = max;
                         }
 
