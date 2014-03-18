@@ -28,8 +28,7 @@
             yAxis = chart.yAxis;
 
         each(yAxis, function (yAxis) {
-            var labelGroup = yAxis.labelGroup,
-                options = yAxis.options,
+            var options = yAxis.options,
                 scalable = options.scalable === undefined ? true : options.scalable,
                 labels = options.labels,
                 pointer = chart.pointer,
@@ -70,7 +69,6 @@
                     isDragging = true;
                 };
 
-                addEvent(labelGroup.element, 'mousedown', startDragging);
                 addEvent(labelGroupBBox.element, 'mousedown', startDragging);
 
                 addEvent(chart.container, 'mousemove', function (e) {
