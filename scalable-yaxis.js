@@ -100,6 +100,9 @@
                         }
 
                         yAxis.setExtremes(newMin, newMax, true, false);
+                        
+                        yAxis.userMin = undefined;
+                        yAxis.userMax = undefined;
                     }
                 });
 
