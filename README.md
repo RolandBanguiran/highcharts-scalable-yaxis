@@ -19,3 +19,4 @@ http://www.highcharts.com/plugin-registry/single/20/Scalable%20Y-Axis
 
 Donate
 ---
+Bitcoin to 15dv1MW6LrArfzrzq46mPscjce7vLUfaBR
