@@ -12,4 +12,4 @@ yAxis: {
 Can also be used with Highstock.
 
 ## Demo
-http://www.highcharts.com/plugin-registry/single/20/Scalable%20Y-Axis
+https://www.highcharts.com/products/plugin-registry/single/20/Scalable%20Y-Axis
